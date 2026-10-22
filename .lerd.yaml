@@ -1,0 +1,9 @@
+domains:
+  - simaslab
+php_version: "8.4"
+node_version: "22"
+framework: codeigniter
+framework_version: "4"
+secured: true
+services:
+  - mysql

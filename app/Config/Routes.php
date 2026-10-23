@@ -5,22 +5,22 @@ use CodeIgniter\Router\RouteCollection;
 /** @var RouteCollection $routes */
 $routes->get('/', 'Home::index');
 
-$routes->get('/pages/dashboard', 'Dashboard::index', [
+$routes->get('dashboard', 'Dashboard::index', [
     'as' => 'dashboard'
 ]);
 
-$routes->get('/pages/rekrutmen', 'Rekrutmen::index', [
+$routes->get('rekrutmen', 'Rekrutmen::index', [
     'as' => 'rekrutmen'
 ]);
 
-$routes->get('/pages/aslab', 'Aslab::index', [
+$routes->get('aslab', 'Aslab::index', [
     'as' => 'aslab'
 ]);
 
-$routes->get('/pages/jadwal', 'Jadwal::index', [
+$routes->get('jadwal', 'Jadwal::index', [
     'as' => 'jadwal'
 ]);
 
-$routes->get('/pages/laporan', 'Laporan::index', [
+$routes->get('laporan', 'Laporan::index', [
     'as' => 'laporan'
 ]);

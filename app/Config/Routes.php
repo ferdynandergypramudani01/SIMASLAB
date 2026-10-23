@@ -5,22 +5,26 @@ use CodeIgniter\Router\RouteCollection;
 /** @var RouteCollection $routes */
 $routes->get('/', 'Home::index');
 
-$routes->get('dashboard', 'Dashboard::index', [
+$routes->get('test', function () {
+    return view('tailwind-test');
+});
+
+$routes->get('dashboard', 'DashboardController::index', [
     'as' => 'dashboard'
 ]);
 
-$routes->get('rekrutmen', 'Rekrutmen::index', [
+$routes->get('rekrutmen', 'RekrutmenController::index', [
     'as' => 'rekrutmen'
 ]);
 
-$routes->get('aslab', 'Aslab::index', [
+$routes->get('aslab', 'AslabController::index', [
     'as' => 'aslab'
 ]);
 
-$routes->get('jadwal', 'Jadwal::index', [
+$routes->get('jadwal', 'JadwalController::index', [
     'as' => 'jadwal'
 ]);
 
-$routes->get('laporan', 'Laporan::index', [
+$routes->get('laporan', 'LaporanController::index', [
     'as' => 'laporan'
 ]);

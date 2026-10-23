@@ -13,6 +13,6 @@ class DashboardController extends BaseController
             'title' => 'Dashboard',
         ];
 
-        return view('dashboard/index', $data);
+        return view('/pages/dashboard/index', $data);
     }
 }

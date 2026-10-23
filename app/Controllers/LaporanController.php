@@ -13,6 +13,6 @@ class LaporanController extends BaseController
             'title' => 'Laporan',
         ];
 
-        return view('laporan/index', $data);
+        return view('/pages/laporan/index', $data);
     }
 }

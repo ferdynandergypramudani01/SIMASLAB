@@ -14,6 +14,6 @@ class JadwalController extends BaseController
             // 'jadwal' => $this->jadwalModel->findAll(),
         ];
 
-        return view('jadwal/index', $data);
+        return view('/pages/jadwal/index', $data);
     }
 }

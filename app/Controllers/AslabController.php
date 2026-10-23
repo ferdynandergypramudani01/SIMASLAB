@@ -14,6 +14,6 @@ class AslabController extends BaseController
             // 'aslab' => $this->aslabModel->findAll(),
         ];
 
-        return view('aslab/index', $data);
+        return view('/pages/aslab/index', $data);
     }
 }

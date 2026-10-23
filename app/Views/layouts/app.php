@@ -14,7 +14,7 @@
 
     <link
         rel="stylesheet"
-        href="<?= base_url('css/output.css') ?>"
+        href="<?= base_url('assets/css/output.css') ?>"
     >
 
 </head>

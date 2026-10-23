@@ -14,6 +14,6 @@ class RekrutmenController extends BaseController
             // 'rekrutmen' => $this->rekrutmenModel->findAll(),
         ];
 
-        return view('rekrutmen/index', $data);
+        return view('/pages/rekrutmen/index', $data);
     }
 }
